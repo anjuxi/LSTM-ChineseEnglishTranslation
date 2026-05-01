@@ -1,6 +1,6 @@
 # LSTM-中英文机器翻译
 
-​	本项目实现了一个基于序列到序列（Seq2Seq）架构的神经机器翻译系统，能够将英语翻译成中文。项目采用双向LSTM作为编码器，单向LSTM作为解码器，并引入了注意力机制来提升翻译质量。
+​本项目实现了一个基于LSTM的序列到序列（Seq2Seq）架构的神经网络机器翻译系统，能够将英语翻译成中文。项目采用双向LSTM作为编码器，单向LSTM作为解码器，并引入了注意力机制来提升翻译质量。
 
 ## 技术特点：
 
@@ -13,11 +13,12 @@
 ## 项目结构
 
 ```
-LSTM-ChineseEnglishTranslation/
-├── LICENSE                #开源协议
+LSTM-chinese_english_translation/
+├── DATA_LICENSE.md        # 数据集声明
+├── LICENSE                # 开源协议
 ├── LSTM-机器翻译.ipynb     # 主程序代码（Jupyter Notebook）
-├── data.xls               # 中英平行语料数据集
-└── README.md              # 项目说明文档
+├── README.md              # 项目说明文档
+└── data.xls               # 中英平行语料数据集
 ```
 
 ## 环境依赖
